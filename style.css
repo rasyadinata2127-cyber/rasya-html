@@ -1,0 +1,26 @@
+* {
+    font-family:cursive;
+}
+
+body {
+    background-color: mediumvioletred;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gambar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.tombol {
+    height: 30px;
+    width: 100px;
+    background-color: deeppink;
+    border: 0px;
+}

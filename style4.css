@@ -1,0 +1,67 @@
+.lagu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: deeppink;
+    width: 400px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-radius: 40px;
+    gap:20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+body {
+    display: flex;
+    height: 97vh;
+    background-color: mediumvioletred;
+
+}
+
+.lirik {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: deeppink;
+    width: 400px;
+    height: 400px;
+    margin-left: 170px;
+    margin-top: 40px;
+    border-radius: 40px;
+    gap: 30px;
+    list-style-type: none;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.semua {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.link {
+    background-color: deeppink;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    height:50px;
+    width:50px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.kotak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

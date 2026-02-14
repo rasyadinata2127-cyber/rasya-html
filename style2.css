@@ -1,0 +1,44 @@
+* {
+    font-family:cursive
+}
+
+body {
+    background-color: mediumvioletred;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    gap:30px
+}
+
+.kotak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.tulisan {
+    color: rgb(251, 248, 250);
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: deeppink;
+    border-radius: 40px ;
+    height: 200px;
+    width: 400px;
+    text-decoration: none;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}

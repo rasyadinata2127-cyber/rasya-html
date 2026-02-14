@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+</html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <title>page 4</title>
+    </head>
+    <body>
+        <div class="gambar">
+            <h1 style="color: white;">I HAVE A MASSAGE FOR YOU</h1>
+            <img src="gambar.jpg" id="surat" class="poster"/>
+            <div>
+                <button onclick="buka()" class="tombol" style="color: white">open</button>
+                <button onclick="tutup()" class="tombol" style="color: white">close</button>
+            </div>
+        </div>
+        
+        <!-- SCRIPT JS -->
+        <script>
+            function buka() {
+                console.log('buka')
+                let surat = document.getElementById("surat");
+                console.log(surat.src);
+                surat.src = 'poster.jpg';
+                surat.style.height = 400;
+                surat.style.width = 300;
+            }
+
+            function tutup() {
+                console.log('tutup')
+                let surat = document.getElementById("surat");
+                console.log(surat.src);
+                surat.src = 'gambar.jpg';
+                surat.style.height = 183;
+                surat.style.width = 297;
+            }
+        </script>
+    </body>
+</html>
